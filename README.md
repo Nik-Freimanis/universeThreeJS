@@ -9,7 +9,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/Nik-Freimanis/universeThreeJS/tree/main
+  git clone https://github.com/Nik-Freimanis/universeThreeJS
 ```
 
 Go to the project directory
