@@ -6,6 +6,7 @@ import {styles} from "../styles";
 import {roadmap} from "../constants";
 import {SectionWrapper} from "../hoc";
 import {textVariant} from "../utils/motion";
+import {Copyright} from "./Copyright.jsx";
 
 const RoadmapCard = ({roadmap}) => {
     return (
@@ -49,9 +50,6 @@ const Roadmap = () => {
                     ))}
                 </VerticalTimeline>
             </div>
-            <motion.div variants={textVariant()}>
-            <h4 className={`${styles.sectionSubText} mt-20 text-center`}>© UUTT 2023. All rights reserved</h4>
-            </motion.div>
         </>
     );
 };

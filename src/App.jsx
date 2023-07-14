@@ -2,6 +2,9 @@ import { BrowserRouter } from "react-router-dom";
 
 import { Achievements, Roadmap, Goals, Navbar, Teams, StarsCanvas } from "./components";
 import {Welcome} from "./components/Welcome.jsx";
+import {Copyright} from "./components/Copyright.jsx";
+import React from "react";
+import {LoginText} from "./components/Login.jsx";
 
 const App = () => {
   return (
@@ -14,6 +17,8 @@ const App = () => {
         </div>
         {/*<Achievements />*/}
         <Roadmap />
+          <LoginText />
+          <Copyright/>
         {/*<Teams />*/}
         {/*<Goals />*/}
       </div>
