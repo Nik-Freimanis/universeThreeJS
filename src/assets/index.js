@@ -5,6 +5,7 @@ import achievement1 from "./achievements/1.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import logo from "/logo.svg"
+import microsoft from "./roadmap/microsoft.svg"
 
 export {
     achievement1,
@@ -13,5 +14,6 @@ export {
     achievement4,
     menu,
     close,
-    logo
+    logo,
+    microsoft
 };

@@ -39,8 +39,8 @@ const Roadmap = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText} text-center`}>Roadmap</p>
-                <h2 className={`${styles.sectionHeadText} text-center`}>Roadmap</h2>
+                {/*<p className={`${styles.sectionSubText} text-center`}>Roadmap</p>*/}
+                <h2 className={`${styles.sectionHeadText} text-center`}>Lifeline</h2>
             </motion.div>
             <div className="mt-20 flex flex-col">
                 <VerticalTimeline>
@@ -49,6 +49,9 @@ const Roadmap = () => {
                     ))}
                 </VerticalTimeline>
             </div>
+            <motion.div variants={textVariant()}>
+            <h4 className={`${styles.sectionSubText} mt-20 text-center`}>© UUTT 2023. All rights reserved</h4>
+            </motion.div>
         </>
     );
 };

@@ -1,0 +1,37 @@
+.wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 100px;
+
+
+    &_welcome {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 50px;
+        justify-content: center;
+        align-items: center;
+
+        &>img {
+            height: 300px;
+        }
+    }
+
+    &_name {
+        display: flex;
+        flex-direction: column;
+
+        &__subtitle {
+            color: #bebebe;
+
+            span {
+                color: #6c38de;
+            }
+        }
+    }
+}
